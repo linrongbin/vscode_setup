@@ -30,6 +30,14 @@ Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
 C:\Users\rolin\Documents\vscode\projects\vscode_setup>git --version
 git version 2.17.0.windows.1
 ```
+4. Config user name and email
+```
+C:\Users\rolin\Documents\vscode\projects\vscode_setup>git config --global user.name linrongbin
+
+C:\Users\rolin\Documents\vscode\projects\vscode_setup>git config --global user.email rongbin621@gmail.com
+```
+
+
 ## GIT repository setup
 
 Follow below picture
@@ -53,6 +61,8 @@ Use '--' to separate paths from revisions, like this:
 > git check-ignore -z --stdin
 > git show :ReadMe.MD
 ```
+
+
 
 ## Create repository on the GITHUB page.
 Copy the link upon finish
